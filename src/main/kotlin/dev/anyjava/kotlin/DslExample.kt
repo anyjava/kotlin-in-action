@@ -1,7 +1,7 @@
 package dev.anyjava.kotlin
 
 fun buildString (
-    builderAction: (StringBuilder) -> Unit
+    builderAction: StringBuilder.() -> Unit
 ) : String {
     val sb = StringBuilder()
     builderAction(sb)
@@ -10,8 +10,8 @@ fun buildString (
 
 fun main(args: Array<String>) {
     val s = buildString {
-        it.append("hello, ")
-        it.append("world!")
+        this.append("hello, ")
+        append("world!")
     }
     println(s)
 }
