@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.anyjava.kotlin.CoroutinesStudyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-21T00:24:44" hostname="cuddy-1010-note.local" time="5.051">
+  <properties/>
+  <testcase name="testCoroutines" classname="dev.anyjava.kotlin.CoroutinesStudyTest" time="5.051"/>
+  <system-out><![CDATA[2020-01-21T09:24:44.120: Thread[Test worker,5,main] : main() started.
+2020-01-21T09:24:44.156: Thread[Test worker,5,main] : launchInGlobalScope() executed
+2020-01-21T09:24:44.158: Thread[DefaultDispatcher-worker-1 @coroutine#1,5,main] : coroutine started.
+2020-01-21T09:24:49.156: Thread[Test worker,5,main] : main() terminated
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

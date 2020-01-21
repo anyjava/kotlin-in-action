@@ -1,0 +1,4 @@
+F2020-01-21T09:24:44.120: Thread[Test worker,5,main] : main() started.
+U2020-01-21T09:24:44.156: Thread[Test worker,5,main] : launchInGlobalScope() executed
+e2020-01-21T09:24:44.158: Thread[DefaultDispatcher-worker-1 @coroutine#1,5,main] : coroutine started.
+H2020-01-21T09:24:49.156: Thread[Test worker,5,main] : main() terminated
